@@ -1,0 +1,17 @@
+# .eslintignore 内容
+# 核心：忽略 node_modules 目录
+node_modules/
+
+# 可选：忽略打包/构建目录
+dist/
+build/
+.vite/
+coverage/
+
+# 可选：忽略类型声明文件
+*.d.ts
+
+# 可选：忽略静态资源（如图片、字体）
+public/
+assets/**/*.png
+assets/**/*.woff2
